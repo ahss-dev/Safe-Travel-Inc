@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: rgb(138, 138, 138);
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+}
+
+#log-header {
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.box-search-passage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url(../imagens/london.jpg);
+}
+
+.formulary {
+    border-radius: 15px;
+    border: 1px solid #202020;
+    backdrop-filter: blur(5px);
+    margin: 0 auto;
+    width: 1000px;
+    height: 350px;
+}
+
+.formulary header {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.formulary header h2 {
+    color: #030303;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* color: #242323; */
+}
+
+.formulary p {
+    font-size: 18px;
+    color: #030303;
+    text-align: center;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.box-large {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.field {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #030303;
+    width: 450px;
+    height: 30px;
+    display: flex;
+    color: #fff;
+    font-size: 18px;
+}
+
+.field input {
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.btn button {
+    background-color: rgb(19, 18, 18);
+    color: #fff;
+    padding: 8px;
+    width: 250px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(112, 112, 112);
+    transition: .3s all;
+}
